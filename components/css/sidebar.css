@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Nova+Slim&display=swap');
 
-@import url('https://fonts.googleapis.com/css2?family=Arvo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Unbounded&display=swap');
 
 body,
 html {
@@ -204,12 +204,11 @@ SIDEBAR STYLE start
 }
 #sidebar .sidebar-header span {
     color: #fff;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     margin: 0px;
     transition: all 0.5s ease;
     font-weight: 600;
-    font-family: 'Arvo', serif;
-    text-shadow: 2px 2px #0e0e0e;
+    font-family: 'Unbounded', cursive;
 }
 
 #sidebar ul li {

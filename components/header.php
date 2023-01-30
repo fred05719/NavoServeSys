@@ -45,6 +45,7 @@
 	<link rel="stylesheet" href="components/css/forms.css">
 	<link rel="stylesheet" href="components/css/modals.css">
 	<link rel="stylesheet" href="css/queue.css">
+	<link rel="stylesheet" href="css/transaction.css">
 
 	<!--google material icon-->
 	<link href="https://fonts.googleapis.com/css2?family=Material+Icons" rel="stylesheet">
@@ -100,28 +101,28 @@
 					</ul>
 				</li>
 
-				<li class="dropdown mb-2">
-					<a href="#Submenu2" data-bs-toggle="collapse" aria-expanded="false" class="dropdown-toggle toggle-parent">
-						<i class="material-icons">summarize</i><span>Report Management</span></a>
-					<ul class="collapse list-unstyled menu" id="Submenu2">
-						<li>
-							<a href="reports" rel="page">Reports</a>
-						</li>
-						<li>
-							<a href="transaction-history" rel="page">Transaction History</a>
-						</li>
-					</ul>
-				</li>
-
 				<li class="dropdown mt-1 mb-2">
-					<a href="#Submenu3" data-bs-toggle="collapse" aria-expanded="false" class="dropdown-toggle toggle-parent">
-						<i class="material-icons">people_alt</i><span>Manage Users</span></a>
-					<ul class="collapse list-unstyled menu mb-4" id="Submenu3">
+					<a href="#Submenu2" data-bs-toggle="collapse" aria-expanded="false" class="dropdown-toggle toggle-parent">
+						<i class="material-icons">people_alt</i><span>User Management</span></a>
+					<ul class="collapse list-unstyled menu mb-4" id="Submenu2">
 						<li>
 							<a href="admin-users" rel="page">Admins</a>
 						</li>
 						<li>
 							<a href="mobile-users" rel="page">Mobile Users</a>
+						</li>
+					</ul>
+				</li>
+
+				<li class="dropdown mb-2">
+					<a href="#Submenu3" data-bs-toggle="collapse" aria-expanded="false" class="dropdown-toggle toggle-parent">
+						<i class="material-icons">summarize</i><span>Report Management</span></a>
+					<ul class="collapse list-unstyled menu" id="Submenu3">
+						<li>
+							<a href="reports" rel="page">Reports</a>
+						</li>
+						<li>
+							<a href="transaction-history" rel="page">Transaction History</a>
 						</li>
 					</ul>
 				</li>

@@ -201,3 +201,6 @@ table tr th {
   font-weight: bold !important;
 }
 
+.card {
+  border-radius: 5px !important;
+}
